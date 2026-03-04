@@ -29,8 +29,6 @@ modules:
       memory: 512M
    build-parameters:
       builder: grunt
-      commands:
-        - npm install
    requires:
     - name: uaa_Demo_MTA_Project
     - name: dest_Demo_MTA_Project
